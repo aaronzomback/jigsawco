@@ -1,10 +1,20 @@
 ---
 ---
 
+@font-face {
+  font-family: "EuclidB";
+  src: url("/assets/fonts/EuclidCircularB-Regular-WebTrial.woff");
+}
+
+$body-font: "EuclidB";
+
+
 body {
   background-color: #ffffff;
   margin-left: 80px;
   margin-right: 120px;
+  font-family: $body-font;
+
 
   a {
     text-decoration: none;
