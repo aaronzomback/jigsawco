@@ -7,18 +7,43 @@
 }
 
 $body-font: "EuclidB";
+$jigsaw-blue: #0F31E4;
 
+html { height: 100%; }
+
+
+h1 {
+  font-weight: 400;
+  font-size: 64px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 56px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 48px;
+}
 
 body {
   background-color: #ffffff;
   margin-left: 80px;
   margin-right: 120px;
   font-family: $body-font;
-
-
+  color: $jigsaw-blue;
+  min-height:100%;
+  position:relative;
+  padding-bottom:[footer-height];
   a {
     text-decoration: none;
   }
+}
+
+.landing-description {
+  width: 860px;
+  margin-left: 6em;
 }
 
 
@@ -31,4 +56,17 @@ header {
     margin-left: 32px;
     font-size: 24px;
   }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0 ;
+  right: 0;
+  bottom: 0;
+  height:[footer-height];
+  margin-top: 40px;
+  margin-bottom: 24px;
 }
