@@ -28,5 +28,7 @@ end
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 
+gem "kramdown-parser-gfm"
+
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]

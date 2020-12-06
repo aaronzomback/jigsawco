@@ -22,6 +22,8 @@ plugins:
    - jekyll-sitemap
 plugins:
    - jekyll-seo-tag
+permalink: /:title:output_ext
+
 
 defaults:
   -
