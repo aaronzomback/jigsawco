@@ -8,32 +8,24 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 email: jgswco@gmail.com
-description: a multimedia design company with a focus on creating educational and entertaining VR experiences.
-baseurl:
-url: www.jigsawco.io
+description: a multimedia design company with a focus on creating educational and
+  entertaining VR experiences.
+baseurl: 
+url: http://jigsawco.io
 twitter_username: JigsawCompany
 theme: minima
 plugins:
-- jekyll-feed
-url: "http://jigsawco.io" # the hostname & protocol for site
-plugins:
-   - jekyll-sitemap
-plugins:
-   - jekyll-seo-tag
-permalink: /:title:output_ext
-
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+- jekyll-seo-tag
+permalink: "/:title:output_ext"

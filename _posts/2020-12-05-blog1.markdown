@@ -1,8 +1,8 @@
 ---
 title: Blog1
+date: 2020-12-05 00:00:00 Z
+permalink: "/Blog1/"
 excerpt: This is blog 1 article
-date: 2020-12-05
-permalink: /Blog1/
 ---
 
 This is the first blog post here.
