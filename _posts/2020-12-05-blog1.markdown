@@ -2,7 +2,14 @@
 title: Blog1
 date: 2020-12-05 00:00:00 Z
 permalink: "/Blog1/"
-excerpt: This is blog 1 article
+excerpt: This is the first text blog article for Jigsaw co.
 ---
 
+![Screen Shot 2020-09-22 at 2.34.16 AM.png](/uploads/Screen%20Shot%202020-09-22%20at%202.34.16%20AM.png)
+
 This is the first blog post here.
+
+> " What would you know about that, eh? "
+
+This is what the crazy man says.
+Ain't it a pity?
