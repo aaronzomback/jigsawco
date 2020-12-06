@@ -12,8 +12,7 @@ email: jgswco@gmail.com
 description: a multimedia design company with a focus on creating educational and entertaining VR experiences.
 baseurl:
 url: www.jigsawco.io
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: JigsawCompany
 theme: minima
 plugins:
 - jekyll-feed
