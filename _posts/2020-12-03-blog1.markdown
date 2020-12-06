@@ -1,0 +1,6 @@
+---
+title: Blog1
+excerpt: This is blog 1 article
+---
+
+This is the first blog post here.
