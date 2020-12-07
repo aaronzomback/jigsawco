@@ -85,10 +85,10 @@ footer {
 // landing page
 
 img.landing-image {
-  margin-top: 80px;
+  margin-top: 140px;
   display: block;
-  margin-left: 280px;
-  width: 800px;
+  margin-left: 480px;
+  width: 400px;
   text-align: center;
   transition: 1.2s;
 
@@ -106,8 +106,8 @@ div.second-page {
   width: 100vw;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 200px;
-  margin-bottom: 64px;
+  margin-top: 280px;
+  margin-bottom: 0;
 
   h1 {
     text-align: center;
@@ -132,5 +132,32 @@ div.second-page {
     color: $jigsaw-yellow;
     padding-top: 0;
     padding-bottom: 64px;
+  }
+}
+
+// third page scroll down
+
+div.third-page {
+  text-align: left;
+  width: 100vw;
+  height: 600px;
+  background-color: white;
+  color: $jigsaw-blue;
+  margin-bottom: 96px;
+
+  p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 96px;
+    width: 800px;
+    font-size: 48px;
+  }
+
+  h4{
+    font-size: 40px;
+    font-weight: 400;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
